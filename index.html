@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>R(m)emory</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app.css'>
+    <link rel="shortcut icon" type="image/svg" href="img/rm-logo.svg"/>
+</head>
+<body onload="setDelay()">
+    <div class="headDiv"> 
+        <h1 class="headOne">R(m)emory</h1>
+    </div>
+    
+
+    <section class="memory">
+        <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="img/aurelia.svg" alt="Aurelia"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Aurelia"/>
+        </div>
+        <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="img/aurelia.svg" alt="Aurelia"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Aurelia"/>
+        </div>
+        <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="img/angular.svg" alt="Angular"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Angular"/>
+        </div>
+        <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="img/angular.svg" alt="Angular"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Angular"/>
+        </div>
+        <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="img/backbone.svg" alt="Backbone"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Backbone"/>
+        </div>
+        <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="img/backbone.svg" alt="Backbone"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Backbone"/>
+        </div>
+        <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="img/ember.svg" alt="Ember"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Ember"/>
+        </div>
+        <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="img/ember.svg" alt="Ember"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Ember"/>
+        </div>
+        <div class="memory-card" data-framework="react">
+            <img class="front-face" src="img/react.svg" alt="React"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="React"/>
+        </div>
+        <div class="memory-card" data-framework="react">
+            <img class="front-face" src="img/react.svg" alt="React"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="React"/>
+        </div>
+        <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="img/vue.svg" alt="Vue"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Vue"/>
+        </div>
+        <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="img/vue.svg" alt="Vue"/>
+            <img class="back-face" src="img/rm-logo.svg" alt="Vue"/>
+        </div>
+        
+    </section>
+    <button type="button" class="playBtn" onclick="startGame()">Reset</button>
+    
+    <div id="startModal" class="modal">
+        <div class="modal-header">
+            <h2>Welcome to R(m)emory</h2>
+        </div>
+        <div class="modal-content">
+            <p>Click play to start a game of memory!</p>
+        </div>
+        <div class="modal-footer">
+            <button class="playBtn" type="button" onclick="startGame()">Play!</button>
+        </div>
+    </div>
+    <div id="endModal" class="modal">
+        <div class="modal-header">
+            <h2>Good job</h2>
+        </div>
+        <div class="modal-content">
+            <p>Your score: <span id="score"></span></p>
+            <p>Your time: <span id="time"></span></p>
+        </div>
+        <div class="modal-footer">
+            <button class="playBtn" type="button" onclick="startGame()">Play Again!</button>
+        </div>
+    </div>
+    <script src='app.js'></script>
+    <script src="timer.js"></script>
+    <script src="points.js"></script>
+</body>
+</html>

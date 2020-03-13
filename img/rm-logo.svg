@@ -1,0 +1,22 @@
+<svg width="132" height="150" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient spreadMethod="pad" y2="0.572917" x2="0.992188" y1="0" x1="0.234375" id="svg_3">
+   <stop offset="0.414063" stop-color="#cef21a"/>
+   <stop offset="1" stop-color="#310de5"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="152" width="134" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="72" rx="61" id="svg_1" cy="75.78125" cx="64.5" stroke-width="1.5" stroke="#efefb1" fill="url(#svg_3)"/>
+  <text font-style="normal" stroke="#efefb1" transform="matrix(4.817543983459473,0,0,2.8200812339782715,-162.2456192970276,-32.7899009808898) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="17" id="svg_4" y="33.398455" x="40.216679" stroke-width="0" fill="#ffffff">R</text>
+  <text stroke="#efefb1" transform="matrix(4.4851484298706055,0,0,2.6369636058807373,-277.06930017471313,-143.15758284553885) " xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="17" id="svg_5" y="95.575993" x="63.001103" stroke-width="0" fill="#ffffff">(M)</text>
+ </g>
+</svg>
